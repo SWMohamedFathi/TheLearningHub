@@ -25,9 +25,22 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "@angular/material/prebuilt-themes/indigo-pink.css",
+              "src/styles.css",
+              "src/assets/assetsTwo/css/bootstrap.min.css",
+              "src/assets/assetsTwo/css/all.min.css",
+              "src/assets/assetsTwo/css/style.css",
+              "src/assets/Dashboard/css/styles.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/assetsTwo/js/jquery-3.2.1.min.js",
+              "src/assets/assetsTwo/js/popper.min.js",
+              "src/assets/assetsTwo/js/bootstrap.min.js",
+              "src/assets/assetsTwo/js/script.js"
+
+
+
+            ]
           },
           "configurations": {
             "production": {
@@ -87,6 +100,7 @@
               "src/assets"
             ],
             "styles": [
+              "@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -94,5 +108,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }
